@@ -33,6 +33,11 @@ class TextCleaner():
     def clean_spanish_text(self):
         pass
 
+    def make_it_shout(self):
+        text = text.upper()
+        return text
+
+
 ### Functions outside of class go here.
 
 if __name__ == '__main__':
