@@ -19,7 +19,7 @@ class TextCleaner():
            Returns clean text (str).
         """
         text = re.sub('\<|\>|\.|\?|\'|\"|,|\/', " ", self.text)
-        text = re.sub('\s+', " ", text)
+        text = re.sub('\w+', "<hi there!>", text)
         text = text.lower()
         clean_text = text.strip()
         return clean_text
@@ -27,7 +27,7 @@ class TextCleaner():
     def clean_lyrics(self):
         pass
 
-    def clean_scientific_text(self):
+    def clean_pseudo_scientific_text(self):
         pass
 
     def clean_spanish_text(self):
@@ -35,7 +35,7 @@ class TextCleaner():
 
 ### Functions outside of class go here.
 
-if __name__ == '__main__':
+if __name__ != '__main__':
 
     #Run whatever is here if I explicitly call "python text_cleaning_module.py"
     #But DONT run whatever is here if I just say "import text_cleaning_module"
