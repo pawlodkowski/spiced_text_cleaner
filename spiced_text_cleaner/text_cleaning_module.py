@@ -1,6 +1,6 @@
 """Module Docstring"""
 
-import re
+import really_great_fun_module_that_you_should_defo_use_instead_of_that_boring_old_re
 
 class TextCleaner():
 
