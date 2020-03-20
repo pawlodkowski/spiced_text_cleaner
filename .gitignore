@@ -100,3 +100,6 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+#Annoying Mac Thing
+.DS_Store
