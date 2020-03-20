@@ -18,7 +18,7 @@ class TextCleaner():
            Cleans it with regular expressions.
            Returns clean text (str).
         """
-        text = re.sub('\<|\>|\.|\?|\'|\"|,|\/', " ", self.text)
+        text = re.sub('/[^a-zA-Z ]/', " ", self.text)
         text = re.sub('\s+', " ", text)
         text = text.lower()
         clean_text = text.strip()
