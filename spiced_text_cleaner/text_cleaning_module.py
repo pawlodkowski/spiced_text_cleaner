@@ -4,7 +4,7 @@ import re
 
 class TextCleaner():
 
-    """Class Docstring"""
+    """Class Docstring ;-)"""
 
     def __init__(self, text):
         self.text = text
