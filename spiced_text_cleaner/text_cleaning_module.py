@@ -37,6 +37,8 @@ class TextCleaner():
         text = text.upper()
         return text
 
+    def xavers_useless_func(self):
+        pass
 
 ### Functions outside of class go here.
 
