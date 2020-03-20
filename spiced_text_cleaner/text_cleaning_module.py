@@ -1,4 +1,7 @@
-"""Module Docstring"""
+"""
+This module consists of functions that takes a text and
+cleans it with regex
+"""
 
 import re
 
