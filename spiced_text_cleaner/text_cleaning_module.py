@@ -33,6 +33,9 @@ class TextCleaner():
     def clean_spanish_text(self):
         pass
 
+    def xavers_useless_func(self):
+        pass
+
 ### Functions outside of class go here.
 
 if __name__ == '__main__':
