@@ -35,6 +35,7 @@ class TextCleaner():
 
 ### Functions outside of class go here.
 
+
 if __name__ == '__main__':
 
     #Run whatever is here if I explicitly call "python text_cleaning_module.py"
